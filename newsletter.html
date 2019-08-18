@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Ellen DeGeneres Fan Site | Newsletter</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="ellen.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Welcome to the #1 fansite for Ellen DeGeneres! Go herer to sign up for the weekly E-mail newsletters!" />
+			<script>
+				function validateForm() {
+					if (document.forms[0].myFName.value == "" ) {
+						alert("Please enter your first name.");
+						return false;
+					} // end if
+					if (document.forms[0].myLName.value == "" ) {
+						alert("Please enter your last name.");
+						return false;
+					} // end if
+					if (document.forms[0].myEmail.value == "" ) {
+						alert("Please enter a valid e-mail address.");
+						return false;
+					} // end if
+					var check = document.getElementById("checkBox").checked;
+						if(check=="") {
+							alert("Please resd and agree to the Terms and Conditions!");
+						return false;
+						} // end checkBox
+					  return false;
+					}
+
+				return true;
+				} // end function validateForm
+		</script>
+	</head>
+	<body>
+		<div id="sitewrap">
+			<header>
+				<h1>Ellen DeGeneres Fan Site</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="comedy.html">Comedy</a></li>
+					<li><a href="LGBT.html">LGBT</a></li>
+					<li><a href="show.html">The Ellen DeGeneres Show</a></li>
+					<li><a class="currentTab" href="newsletter.html">Newsletter</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h2>Sign up to receive weekly Email alerts about Ellen</h2>
+			<p>Required information is marked with an asterisk (*).</p>
+				<form method="post" action="thankyou.html" onsubmit="return validateForm();">
+					<label for="myFName">*First Name:</label>
+						<input type="text" name="myFName" id="myFName" maxlength="100" placeholder="Your First Name">
+					<label for="myLName">*Last Name:</label>
+						<input type="text" name="myLName" id="myLName" maxlength="100" placeholder="Your Last Name">
+					<label for="myEmail">*E-mail:</label>
+						<input type="email" name="myEmail" id="myEmail" placeholder="you@yourdomain.com">
+					<label for="terms">*Please read and agree to the Terms and Conditions below:</label>
+						<textarea name="terms" id="terms" rows="15" cols="30" readonly>Lorem ipsum dolor sit amet, sed an noster iudicabit. Ut vel prima iusto disputationi, id qui virtute instructior. His modo oblique neglegentur eu. Nobis clita mentitum te vis, melius commodo qui eu. In nam neglegentur interpretaris, in omnium epicurei rationibus vix. Per te apeirian qualisque voluptatibus, sea labore sapientem intellegebat te, dicant bonorum ei pro. Mel corrumpit voluptatibus no, ei vis tantas impedit.<br>Ad mel sale epicuri interesset, utamur disputando et nec, latine feugait commune an eos. Eu inani senserit sadipscing usu. Autem laudem mediocrem ea pri. Graeci causae fabellas in eum, ius at oratio malorum platonem. Mea id nisl dicta mazim, mel in wisi accusam.<br>His cu invidunt mandamus, cum admodum adipiscing instructior ad. Sea tota tation persequeris an. Duis commune mea no, nihil vocent delenit pri id. Has iisque explicari complectitur in, mei ea ludus impetus aeterno. Alienum detraxit his ad, odio legimus interesset has ad, eu purto fabulas laoreet pro. Eos et quem nulla mazim, te meliore expetendis dissentias pri, meis munere imperdiet vel ad.<br>Per ne scripserit inciderint, usu cu altera accumsan. Errem recusabo eum ut, ad vis facer pericula. No dicat dolores iudicabit duo, qui latine noluisse instructior ut. At modo nostrud sea, qui te dicam denique maluisset, meis mollis honestatis cum ea. His convenire consequuntur in, vide commune ei vix, ad vis munere denique sententiae. Ei mel altera dolores, utinam electram reformidans eu usu.</textarea>
+				<label for="checkBox">*I have read and agreed to the Terms and Conditions:</label>
+				<input type="checkbox" id="checkBox" name="checkBox" value="check">
+					<input id="mySubmit" type="submit" value="Send Now">
+				</form>
+
+			</main>
+			<footer>
+			<p>Copyright &copy; 2017 Ellen DeGeneres Fan Site</p>
+			<a href="mailto:sgold17@my.stlcc.edu">sgold17@my.stlcc.edu</a>
+			<div>
+			<script>
+				document.write("This page was last modified on " + document.lastModified);
+			</script>
+			</div>
+			</footer>
+		</div>
+	</body>
+</html>

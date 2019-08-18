@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Ellen DeGeneres Fan Site | Index</title>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="ellen.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Welcome to the #1 fansite for Ellen DeGeneres! Here you will find out Ellen's most memorable moments, her childhood, career, and advocacy in the LGBT community!" />
+	</head>
+	<body>
+		<div id="sitewrap">
+			<header>
+				<h1>Ellen DeGeneres Fan Site</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a class="currentTab" href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="comedy.html">Comedy</a></li>
+					<li><a href="LGBT.html">LGBT</a></li>
+					<li><a href="show.html">The Ellen DeGeneres Show</a></li>
+					<li><a href="newsletter.html">Newsletter</a></li>
+				</ul>
+			</nav>
+			<main>
+				<h2>Welcome To The Ellen DeGeneres Fan Site!</h2>
+				<p>Are you a true fan of Ellen? If yes, then you have come to the right place! Here at The Ellen DeGeneres Fan Site we embrace everything that we love about her! </p>
+				<img src="ED.jpg" class="floatLeft" height="507" width="400" alt="Ellen DeGeneres Oscars Headshot" />
+				<p>Ellen Degeneres is an American comedian, television host, actress, writer, and producer. She starred in the popular sitcom Ellen (1994-98), and has hosted her own talk show since 2003. She began her stand-up career in the early 1980's, and has starred in many films such as Mr. Wrong, EDtv, and The Love Letter.</p>
+				<p>DeGeneres has hosted the Academy Awards, Grammy Awards, and the Primetime Emmys. She has authored four books and started her own record company, Eleveneleven, as well as a production company, A Very Good Production. She also launched a lifestyle brand, ED by Ellen. She has won 30 Emmys, 20 People's Choice Awards (more than any other person), and numerous other awards for her work and charitable efforts. In 2016, she received the Presidential Medal of Freedom.</p>
+
+
+			</main>
+			<footer>
+			<p>Copyright &copy; 2017 Ellen DeGeneres Fan Site</p>
+			<a href="mailto:sgold17@my.stlcc.edu">sgold17@my.stlcc.edu</a>
+			<div>
+			<script>
+				document.write("This page was last modified on " + document.lastModified);
+			</script>
+			</div>
+			</footer>
+		</div>
+	</body>
+</html>
